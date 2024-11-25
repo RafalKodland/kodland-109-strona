@@ -1,0 +1,7 @@
+0 (tylko raz na danym komputerze). Zainstalować program pipenv, za pomocą komendy: pip install pipenv
+
+1. Tworzymy wirtualne środowisko za pomocą polecenia: pipenv shell
+2. W opcjach VSC (shift+crtl+p) szukam ustawienia Python: Select Interpreter. Wybieram tam wirtualne środowisko, które stworzyłem
+    w poprzednim poleceniu
+3. Wszystkie moduły, które chce dodać do projektu, dodaje za pomocą polecenia: pipenv install [moduł], gdzie [moduł] zastępuje nazwą
+    modułu, np. pipenv install flask

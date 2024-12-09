@@ -43,5 +43,3 @@ def end(size, lights, device):
                                                     )
                         )
 app.run(debug=True)
-
-# To jest tekst z maina
